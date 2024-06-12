@@ -1,0 +1,25 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^beranda\.html$ home.php?modul=home [L]
+RewriteRule ^katalog\.html$ home.php?modul=katalog [L]
+RewriteRule ^jurnal\.html$ home.php?modul=jurnal [L]
+RewriteRule ^jurnal-(.*)\.html$ home.php?modul=detailjurnal&id=$1 [L]
+RewriteRule ^kategori-(.*)\.html$ home.php?modul=detailkategori&id=$1 [L]
+RewriteRule ^subjek-(.*)\.html$ home.php?modul=detailkategori&id=$1 [L]
+RewriteRule ^klasifikasi-(.*)\.html$ home.php?modul=detailklasifikasi&id=$1 [L]
+RewriteRule ^halkategori-([0-9]+)-(.*)\.html$ home.php?modul=detailkategori&id=$1&halkategori=$2 [L]
+RewriteRule ^halsubjek-([0-9]+)-(.*)\.html$ home.php?modul=detailsubjek&id=$1&halsubjek=$2 [L]
+RewriteRule ^halklasifikasi-([0-9]+)-(.*)\.html$ home.php?modul=detailklasifikasi&id=$1&halklasifikasi=$2 [L]
+RewriteRule ^semua-agenda\.html$ media.php?module=semuaagenda&id=$1 [L]
+RewriteRule ^halagenda-(.*)\.html$ media.php?module=semuaagenda&halagenda=$1 [L]
+RewriteRule ^semua-download\.html$ media.php?module=semuadownload&id=$1 [L]
+RewriteRule ^haldownload-(.*)\.html$ media.php?module=semuadownload&haldownload=$1 [L]
+RewriteRule ^halbuku-(.*)\.html$ home.php?modul=katalog&halbuku=$1 [L]
+RewriteRule ^buku-(.*)\.html$ home.php?modul=detailbuku&id=$1 [L]
+RewriteRule ^carijudul\.html$ home.php?modul=carijudul&id=$1 [L]
+RewriteRule ^caripenulis\.html$ home.php?modul=caripenulis&id=$1 [L]
+
+
+Options All -Indexes
+</IfModule>

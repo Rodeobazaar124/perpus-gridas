@@ -1,0 +1,241 @@
+@import url('../css/paging.css');
+#boxform {
+	background: #fff;
+	margin-top: 50px;
+	padding-bottom: 20px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #E5E5E5;
+	border-right-color: #E5E5E5;
+	border-bottom-color: #E5E5E5;
+	border-left-color: #E5E5E5;
+}
+body {
+	background-color: #FFFFFF;
+}
+.atas {
+	margin-top:-7px;
+}
+#fixme {position: fixed;left: 0;right: 0; top:0;}
+/* prevent overlap */
+.form-control {
+	margin-bottom:12px;
+}
+.logo {
+	margin-left:10px;
+	padding-bottom:20px;
+}
+.navbar {
+	background-color: #FFFFFF;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+.navbar  ul > li > a{
+	display:block;
+}
+.navbar  ul > li > i{
+	display: inline-block;	
+}
+.red, .red a {
+  color: #F00;
+}
+#menukanan {
+	padding-right:20px;
+}
+.container {
+	margin-top:100px;
+}
+#menugrup li {
+	border-bottom-width: thick;
+	border-bottom-style: solid;
+	border-bottom-color: #F00;
+	height:70px;}
+#wrapper {
+	margin-top:100px;
+}
+#menudashboard {
+	background: #FFF;
+	width:70px;
+	float:left;
+}
+
+
+.subnavbar {
+	margin-top:-25px;
+    	margin-bottom: 2.5em;
+    }
+    
+.subnavbar-inner {
+	min-height: 100%;
+	border-bottom: 1px solid #d6d6d6;
+	background-color: #FBFBFB;
+}
+
+.subnavbar .container > ul {
+	display: inline-block;
+	
+	min-height: 80px;
+	padding: 0;
+	margin: 0;
+	
+}
+
+.subnavbar .container > ul > li {
+	float: left;
+	
+	width: 90px;
+	height: 80px;
+	padding: 0;
+	margin: 2px;
+	
+	text-align: center;
+	list-style: none;
+	
+	
+}
+
+.subnavbar .container > ul > li > a {
+	display: block;
+	
+	height: 100%;
+	
+	font-size: 12px;
+	font-weight: bold;
+	color: #027c96;
+}
+
+.subnavbar .container > ul > li > a:hover {
+	color: #06AED2;
+	text-decoration: none;
+	background-color: #FFF;
+	border-bottom-width: medium;
+	border-bottom-style: solid;
+	border-bottom-color: #06AED2;
+}
+
+.subnavbar .container > ul > li > a > i {
+	display: inline-block;	
+	width: 24px;
+	height: 24px;
+	margin-top: 11px;
+	margin-bottom: 13px;
+	font-size: 20px;
+}
+
+.subnavbar .container > ul > li > a > span {
+	display: block;
+	
+}
+
+
+.subnavbar .container > ul > li.active > a {
+	
+	border-bottom:3px solid #ff7f74;
+	color: #383838;
+}
+    
+
+.subnavbar .dropdown .dropdown-menu a {
+	font-size: 12px;
+		border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #F7F7F7;
+	height:33px;
+	vertical-align: central;
+}
+
+.subnavbar .dropdown .dropdown-menu {
+	text-align: left;
+	-webkit-border-top-left-radius: 0;
+	-webkit-border-top-right-radius: 0;
+	-moz-border-radius-topleft: 0;
+	-moz-border-radius-topright: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+
+    }
+    
+    
+    
+.subnavbar .dropdown-menu::before {
+	content: '';
+	display: inline-block;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-bottom: 7px solid #CCC;
+	border-bottom-color: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	top: -7px;
+	left: 9px;
+}
+
+.subnavbar .dropdown-menu::after {
+	content: '';
+	display: inline-block;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 6px solid white;
+	position: absolute;
+	top: -6px;
+	left: 10px;
+}
+
+
+.subnavbar .caret {
+	margin-top: 4px;
+	
+	border-top-color: white;
+	border-bottom-color: white;
+}
+
+.subnavbar .dropdown.open .caret {
+	display: none;
+}
+
+.subnavbar .dropdown .dropdown-menu a:hover{
+	background:#06AED2;
+	color:#FFF;
+    	
+    }
+
+#kanan {
+	margin-right:20px;
+	margin-top:20px;
+}
+#konten {
+	padding-top:25px;
+	margin-top:-2px;
+	background:#FFF;
+}
+#kop {
+	background:#FFF;
+	width:600px;
+	margin-top:15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.garis {
+	border-bottom-width: 3px;
+	border-bottom-style: ridge;
+	border-bottom-color: #000;
+	width: 100%;
+	margin-bottom:10px;
+}
+#kop img {
+	padding-top:0px;
+}
+#ttd{
+	width:100%;
+	padding-left:5%;
+}
+.kolom {
+	width:25%;
+	float:left;
+}
+.tg {
+	margin-left:-30px;
+
+}
